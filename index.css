@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+
+body {
+    background-color: #2a2a2aa3;
+}
+
+.container {
+    background-color: #c8a34c;
+    padding: 0px 0px 0px 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 0px 300px 0px 300px;
+}
+
+h1 {
+    font-family: "Caveat";
+    color: #000000a3;
+}
+
+.contato {
+    display: flex;
+    background-color: #c8a34c;
+    margin: 0px 400px 0px 400px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    background-color: #ece1c7;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#nome {
+    margin: px 50px 0px 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    outline: 0;
+}
+
+#nome:hover {
+    transform: translateZ(10px) scale(1.04);
+    outline: 0;
+}
+
+#telefone {
+    margin: 0px 50px 0px 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    outline: 0;
+}
+
+#telefone:hover {
+    transform: translateZ(10px) scale(1.04);
+    outline: 0;
+}
+
+#contatoLogo {
+    height: 25px;
+    padding: 0px 7px 0px 0px;
+}
+
+#telefoneLogo {
+    height: 25px;
+    padding: 0px 0px 0px 50px;
+    margin-left: 10px;
+    margin-right: -7px;
+}
+
+button {
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    margin-left: 115px;
+    font-size: medium;
+    color: #000000a3;
+    background-color: #ece1c7;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+    color: rgb(0, 161, 0);
+    transform: translateZ(10px) scale(1.04);
+    transition: transform 0.3s;
+}
+
+#cabecaTabela {
+    display: flex;
+    background-color: #c8a34c;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 400px 0px 400px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    color: #000000a3;
+}
+
+#colunaNome {
+    padding-left: 10px;
+    font-family: "Caveat";
+    color: #000000a3;
+}
+
+#colunaTelefone {
+    padding-left: 612px;
+    padding-right: 10px;
+    font-family: "Caveat";
+    color: #000000a3;
+}
+
+.corpo {
+    display: grid;
+    background-color: #c8a34c;
+    margin: 5px 400px 0px 400px;
+    padding-bottom: 200px;
+}

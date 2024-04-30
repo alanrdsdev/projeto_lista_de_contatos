@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jersey+10&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>LISTA DE CONTATOS</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lista de contatos</h1>
+        </div>
+    </header>
+    <form id="formAgenda">
+        <div class="contato">
+            <img src="./imagens/contact-1293388_1280.png" id="contatoLogo" alt="contato">
+            <input id="nome" required placeholder="Nome" type="text">
+            
+            <img src="./imagens/icon-157358_1280.png" id="telefoneLogo" alt="telefone">
+            <input id="telefone" required placeholder="Telefone" type="tel">
+            <button type="submit">Adicionar</button>
+        </div>
+    </form>
+    <table>
+        <div class="table">
+            <thead id="cabecaTabela">
+                <tr>
+                    <th id="colunaNome">
+                        Nome
+                    </th>
+                </tr>
+                <tr>
+                    <th id="colunaTelefone">
+                        Telefone
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="corpo" >
+             
+            </tbody>
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>
